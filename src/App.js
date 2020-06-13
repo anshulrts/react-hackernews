@@ -1,15 +1,18 @@
-import React from 'react';
+import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-function App() {
-  var helloWorld = "Welcome to the Road to Learn React";
+class App extends Component {
+  
+  render() {
+    var helloWorld = "Welcome to the Road to Learn React";
 
-  return (
-    <div className="App">
-      <h2>{helloWorld}</h2>
-    </div>
-  );
+    return (
+      <div className="App">
+        <h2>{helloWorld}</h2>
+      </div>
+    );
+  }
 }
 
 export default App;
